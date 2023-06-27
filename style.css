@@ -1,0 +1,72 @@
+html{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: linear-gradient(90deg, #2d7ba8 0%, #1555c2 100%);
+    
+}
+
+.calculator-body{
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    padding: 5px;
+}
+.screen{
+    width: 100%;
+    height: 20%;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.screen-top{
+    width: 100%;
+    height: 40%;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.screen-bot{
+    width: 100%;
+    height: 40%;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.keys-1,.keys-2, .keys-3, .keys-4, .keys-5{
+    width: 100%;
+    height: 15%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.key-1 , .key-2 , .key-3 , .key-4 , .key-5{
+    width: 100%;
+    height: 100%;
+    background: #74a3a5;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+.key-1:hover , .key-2:hover , .key-3:hover , .key-4:hover , .key-5:hover{
+    background: #3e18a7;
+    color: #fff;
+}
